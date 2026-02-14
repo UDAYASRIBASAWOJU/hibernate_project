@@ -11,10 +11,10 @@ public class FetchPerson {
 		
 		Person p = em.find(Person.class, 10);
 		
-		System.out.println(p.getId() + " " + p.getName());
+		System.out.println(p + " " + p.getId() + " " + p.getName());
 		
-		Aadhar a = p.getAadhar();
-	
-		System.out.println(a.getId() + " " + a.getLocation());
+//		Aadhar a = p.getAadhar();
+//	
+//		System.out.println(a.getId() + " " + a.getLocation());
 	}
 }

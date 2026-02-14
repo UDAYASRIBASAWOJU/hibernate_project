@@ -1,6 +1,7 @@
 package com.lpu.oneToOne;
 
 import jakarta.persistence.Entity;
+import jakarta.persistence.FetchType;
 import jakarta.persistence.Id;
 import jakarta.persistence.OneToOne;
 
@@ -12,7 +13,7 @@ public class Person {
 	
 	private String name;
 	
-	@OneToOne
+	@OneToOne(fetch = FetchType.EAGER)
 	private Aadhar aadhar;
 	
 	public void setId(long id) {

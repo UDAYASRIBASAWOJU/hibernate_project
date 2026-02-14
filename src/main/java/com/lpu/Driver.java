@@ -1,12 +1,12 @@
 package com.lpu;
 
-import java.util.List;
+//import java.util.List;
 
 import com.lpu.student.Student;
 
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.EntityManagerFactory;
-import jakarta.persistence.EntityTransaction;
+//import jakarta.persistence.EntityTransaction;
 import jakarta.persistence.Persistence;
 import jakarta.persistence.Query;
 

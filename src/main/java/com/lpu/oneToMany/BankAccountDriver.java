@@ -1,7 +1,7 @@
 package com.lpu.oneToMany;
 
-import java.util.ArrayList;
-import java.util.List;
+//import java.util.ArrayList;
+//import java.util.List;
 
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.EntityManagerFactory;
@@ -33,8 +33,8 @@ public class BankAccountDriver {
 //		em.persist(b);
 //		et.commit();
 		
-		Bank b = em.find(Bank.class, 101);
-		
+//		Bank b = em.find(Bank.class, 101);
+		//System.out.println(b);
 //		System.out.println(b.getId() + " " + b.getName() + " " + b.getLocation());
 //		for(Account a : b.getAccount()) {
 //			System.out.println(a.getId() + " " + a.getName() + " " + a.getBalance());

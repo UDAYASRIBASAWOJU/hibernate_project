@@ -1,6 +1,7 @@
 package com.lpu.oneToMany;
 
 import jakarta.persistence.Entity;
+import jakarta.persistence.FetchType;
 import jakarta.persistence.Id;
 import jakarta.persistence.OneToMany;
 import java.util.*;
@@ -14,7 +15,7 @@ public class Bank {
 	private String name;
 	private String location;
 	
-	@OneToMany
+	@OneToMany(fetch = FetchType.EAGER)
 	private List<Account> accounts;
 	
 	public Bank(int id, String name, String location) {
